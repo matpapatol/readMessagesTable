@@ -7,7 +7,16 @@ const promise = require('bluebird');
 const concurrency = 0;
 
 
-exports.handler = (event, context, callback) => {
+exports.handler = (event, context, callback) => { 
+    Promise.try(()=>{
+
+    })
+    .then(()=>{
+        callback(null,  {
+            success: false
+        });
+    })
+    .catch();
 
     const minimata = [];
 
