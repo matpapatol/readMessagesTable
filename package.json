@@ -1,12 +1,24 @@
 {
-  "name": "readMessagesTable",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "readMessagesTable",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"no_api": true,
+	"api": {
+		"apiId": null,
+		"stageNames": [],
+		"method": null
+	},
+	"lambdaAlias": null,
+	"description": "",
+	"dependencies": {
+		"bluebird": "^3.5.1",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2"
+	}
 }
